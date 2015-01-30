@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANJALI8</Machine>
+    <WindowsUser>Arun.RS</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>13637ArunTest.OneNoteTestApp</PackageIdentityName>
+    <IntermediateOutputPath>I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AF91235A008A5070C7AB789639513F5A1B5E629CEAC5DB020AC6E19433B1173F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>13637ArunTest.OneNoteTestApp_1.1.0.0_neutral__xc8p2h2vnm1zr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>13637ArunTest.OneNoteTestApp_xc8p2h2vnm1zr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>13637ArunTest.OneNoteTestApp</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=C841C5F1-C041-4389-9370-119CB40DE65D</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-30T08:53:51.680</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\bin\Debug\OneNoteTestApp.exe">
+      <PackagePath>OneNoteTestApp.exe</PackagePath>
+      <Modified>2015-01-30T10:56:30.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-01-30T08:40:06.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T00:31:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-30T08:28:48.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-01-30T10:55:50.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\bin\Debug\Views\HomePage.xbf">
+      <PackagePath>Views\HomePage.xbf</PackagePath>
+      <Modified>2015-01-30T10:55:50.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\bin\Debug\OneNoteTestApp.xr.xml">
+      <PackagePath>OneNoteTestApp.xr.xml</PackagePath>
+      <Modified>2015-01-30T10:55:50.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="I:\TFS13 Projects\IM-Playground\Users\Arun Raj\OneNoteTestApp\OneNoteTestApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-30T08:53:51.517</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

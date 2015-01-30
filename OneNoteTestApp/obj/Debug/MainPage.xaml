@@ -1,0 +1,40 @@
+﻿<Page x:Class="OneNoteTestApp.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:OneNoteTestApp"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:Name="LoginStackPanel"
+                    VerticalAlignment="Center">
+            <Button x:ConnectionId='1' x:Name="SignInButton"
+                    Content="Sign in"
+                                              
+                    HorizontalAlignment="Center" />
+            <StackPanel Visibility="Collapsed"
+                        HorizontalAlignment="Center"
+                        x:Name="GoNextStackpanel">
+                <Image x:Name="UserPicture"
+                       Height="50"
+                       Width="50"
+                       Margin="0,0,20,0" />
+                <TextBlock x:Name="UserName"
+                           FontSize="50" />
+                    <Button x:ConnectionId='2' x:Name="GoButton"
+                            Content="Create New Note"
+                                                  
+                            HorizontalAlignment="Center"
+                            Margin="10,0,0,0" />
+            </StackPanel>
+
+            <TextBox  Margin="0,0,0,0"
+                      x:Name="DebugArea"
+                      PlaceholderText="Press sign in to login to live services"
+                      Width="500"
+                      TextWrapping="Wrap"
+                      IsReadOnly="True" />
+        </StackPanel>
+    </Grid>
+</Page>
+

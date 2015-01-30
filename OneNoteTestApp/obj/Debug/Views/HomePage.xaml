@@ -1,0 +1,32 @@
+﻿<Page x:Class="OneNoteTestApp.Views.HomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:OneNoteTestApp.Views"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel VerticalAlignment="Center">
+            <TextBox x:Name="HeadingBox"
+                     Width="700"
+                     Height="60"
+                     Header="Heading" />
+            <TextBox x:Name="BodyBox"
+                     Header="Body"
+                     Width="700"
+                     Height="150" />
+            <Button x:ConnectionId='1' Content="Create"
+                    x:Name="SendButton"
+                                            
+                    HorizontalAlignment="Center" />
+            <TextBox  Margin="0,50,0,0"
+                      x:Name="StatusTextBox"
+                      PlaceholderText="Status Information"
+                      Height="200"
+                      TextWrapping="Wrap"
+                      IsReadOnly="True" />
+        </StackPanel>
+    </Grid>
+</Page>
+
